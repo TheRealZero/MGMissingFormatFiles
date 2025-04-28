@@ -18,13 +18,13 @@
 
 ## Microsoft.Graph.Beta.DeviceManagement
 
-### Microsoft.Graph.Beta.DeviceManagement\Microsoft.Graph.Beta.PowerShell.Models.IMicrosoftGraphDeviceHealthScript.ps1xml
+### Microsoft.Graph.Beta.PowerShell.Models.IMicrosoftGraphDeviceHealthScript.ps1xml
 
-### Microsoft.Graph.Beta.DeviceManagement\Microsoft.Graph.Beta.PowerShell.Models.IMicrosoftGraphDeviceHealthScriptDeviceState.ps1xml
+### Microsoft.Graph.Beta.PowerShell.Models.IMicrosoftGraphDeviceHealthScriptDeviceState.ps1xml
 
-### Microsoft.Graph.Beta.DeviceManagement\Microsoft.Graph.Beta.PowerShell.Models.MicrosoftGraphDevice.ps1xml
+### Microsoft.Graph.Beta.PowerShell.Models.MicrosoftGraphDevice.ps1xml
 
-### Microsoft.Graph.Beta.DeviceManagement\Microsoft.Graph.Beta.PowerShell.Models.MicrosoftGraphDeviceHealthScriptPolicyState.ps1xml
+### Microsoft.Graph.Beta.PowerShell.Models.MicrosoftGraphDeviceHealthScriptPolicyState.ps1xml
 
 ## Microsoft.Graph.Beta.DeviceManagement.Actions
 
@@ -38,7 +38,7 @@
 
 ## Microsoft.Graph.Beta.Devices.CorporateManagement
 
-### Microsoft.Graph.Beta.Devices.CorporateManagement\Microsoft.Graph.Beta.PowerShell.Models.MicrosoftGraphDevice.ps1xml
+### Microsoft.Graph.Beta.PowerShell.Models.MicrosoftGraphDevice.ps1xml
 
 ## Microsoft.Graph.Beta.Devices.ServiceAnnouncement
 
@@ -86,7 +86,7 @@
 
 ## Microsoft.Graph.Beta.Users
 
-### Microsoft.Graph.Beta.Users\MicrosoftGraphBetaUser.ps1xml
+### MicrosoftGraphBetaUser.ps1xml
 
 ## Microsoft.Graph.Beta.Users.Actions
 
