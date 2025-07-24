@@ -20,3 +20,18 @@ With clickable link of course!
 
 ![Image of the new output showing the DeviceName is a clickable link](<Images/Screenshot 2025-07-24 112143.png>)
 
+## Installation
+
+Clone the repository to your local machine:
+
+```powershell
+git clone https://github.com/TheRealZero/MGMissingFormatFiles.git
+```
+
+Then import the format files into your PowerShell session:
+
+```powershell
+Get-ChildItem -Path .\MGMissingFormatFiles\*.format.ps1xml | ForEach-Object { Import-FormatData -PrependPath $_.FullName }
+```
+
+You can add this command to your PowerShell profile to automatically import the format files in every session.
