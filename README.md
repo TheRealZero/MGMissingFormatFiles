@@ -1,96 +1,22 @@
-## Microsoft.Graph.Authentication
+# Microsoft Graph - The Missing PowerShell Format Files
 
-## Microsoft.Graph.Beta
+This module supplies additional format files you can use with the Microsoft.Graph and Microsoft.Graph.Beta PowerShell Modules.
 
-## Microsoft.Graph.Beta.Applications
+The default output for many of the commands in the Microsoft GRaph modules outputs a table with all properties in an unhelpful order.  These format files will display more relevant information, and provide some additional quality of life improvments such as conditional formatting (ex. red for non-compliant status and green for compliant) and clickable links that will open the objects portal page.
 
-## Microsoft.Graph.Beta.Bookings
+Note: Colorization and clickable hyperlinks require PowerShell 6+ and the use of an ANSI terminal like Windows Terminal.
 
-## Microsoft.Graph.Beta.Calendar
+## Example - Get-MGBetaDeviceManagementManagedDevice 
 
-## Microsoft.Graph.Beta.ChangeNotifications
+This is the default output for a Managed Device object with the beta module:
 
-## Microsoft.Graph.Beta.CloudCommunications
+![Image of the default output, showing properties Id,AadRegistered, ActivationLockByPassCode,AndroidSecurityPatchLevel and AutoPilotEnrolled](<Images/Screenshot 2025-07-24 113158.png>)
 
-## Microsoft.Graph.Beta.Compliance
+This is the output with the missing format file:
 
-## Microsoft.Graph.Beta.CrossDeviceExperiences
+![Image of the new output, showing properties DeviceName, UserPrincipalName, UserDisplayName, OSVersion, SerialNumber and ComplianceState](<Images/Screenshot 2025-07-24 112045.png>)
 
-## Microsoft.Graph.Beta.DeviceManagement
+With clickable link of course!
 
-### Microsoft.Graph.Beta.PowerShell.Models.IMicrosoftGraphDeviceHealthScript.ps1xml
-
-### Microsoft.Graph.Beta.PowerShell.Models.IMicrosoftGraphDeviceHealthScriptDeviceState.ps1xml
-
-### Microsoft.Graph.Beta.PowerShell.Models.MicrosoftGraphDevice.ps1xml
-
-### Microsoft.Graph.Beta.PowerShell.Models.MicrosoftGraphDeviceHealthScriptPolicyState.ps1xml
-
-## Microsoft.Graph.Beta.DeviceManagement.Actions
-
-## Microsoft.Graph.Beta.DeviceManagement.Administration
-
-## Microsoft.Graph.Beta.DeviceManagement.Enrollment
-
-## Microsoft.Graph.Beta.DeviceManagement.Functions
-
-## Microsoft.Graph.Beta.Devices.CloudPrint
-
-## Microsoft.Graph.Beta.Devices.CorporateManagement
-
-### Microsoft.Graph.Beta.PowerShell.Models.MicrosoftGraphDevice.ps1xml
-
-## Microsoft.Graph.Beta.Devices.ServiceAnnouncement
-
-## Microsoft.Graph.Beta.DirectoryObjects
-
-## Microsoft.Graph.Beta.Education
-
-## Microsoft.Graph.Beta.Files
-
-## Microsoft.Graph.Beta.Financials
-
-## Microsoft.Graph.Beta.Groups
-
-## Microsoft.Graph.Beta.Identity.DirectoryManagement
-
-## Microsoft.Graph.Beta.Identity.Governance
-
-## Microsoft.Graph.Beta.Identity.Partner
-
-## Microsoft.Graph.Beta.Identity.SignIns
-
-## Microsoft.Graph.Beta.Mail
-
-## Microsoft.Graph.Beta.ManagedTenants
-
-## Microsoft.Graph.Beta.Notes
-
-## Microsoft.Graph.Beta.People
-
-## Microsoft.Graph.Beta.PersonalContacts
-
-## Microsoft.Graph.Beta.Planner
-
-## Microsoft.Graph.Beta.Reports
-
-## Microsoft.Graph.Beta.SchemaExtensions
-
-## Microsoft.Graph.Beta.Search
-
-## Microsoft.Graph.Beta.Security
-
-## Microsoft.Graph.Beta.Sites
-
-## Microsoft.Graph.Beta.Teams
-
-## Microsoft.Graph.Beta.Users
-
-### MicrosoftGraphBetaUser.ps1xml
-
-## Microsoft.Graph.Beta.Users.Actions
-
-## Microsoft.Graph.Beta.Users.Functions
-
-## Microsoft.Graph.Beta.WindowsUpdates
+![Image of the new output showing the DeviceName is a clickable link](<Images/Screenshot 2025-07-24 112143.png>)
 
